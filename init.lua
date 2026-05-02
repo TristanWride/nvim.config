@@ -5,3 +5,5 @@ vim.pack.add({
 })
 
 require( "lazy" ).setup({ spec = { { import = "plugins" }, }, })
+
+require "lsp"
